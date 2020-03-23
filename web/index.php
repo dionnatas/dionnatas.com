@@ -44,7 +44,7 @@
 					<a href="http://www.plus.google.com"><img src="images/plus.png"></a>&nbsp;&nbsp;
 					<a href="http://www.twitter.com"><img src="images/twitter.png"><a/>&nbsp;&nbsp;
 					<a href="https://www.facebook.com/"><img src="images/face.png"></a>&nbsp;&nbsp;
-					<a href="https://www.linkedin.com/dionnatas/"><img src="images/linkedin.png"></a>
+					<a href="https://www.linkedin.com/in/dionnatas/"><img src="images/linkedin.png"></a>
 				</div>
 			</div>	
 		</div>

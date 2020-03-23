@@ -30,7 +30,7 @@
 					<a href="http://www.plus.google.com"><img src="images/plus.png"></a>
 					<a href="http://www.twitter.com"><img src="images/twitter.png"><a/>
 					<a href="https://www.facebook.com/"><img src="images/face.png"></a>
-					<a href="https://www.linkedin.com/in/di%C3%B4nnatas-santa-f%C3%A9-filho-9a018776?trk=hp-identity-name"><img src="images/linkedin.png"></a>
+					<a href="https://www.linkedin.com/in/dionnatas"><img src="images/linkedin.png"></a>
 				</p>
 			  	</div>
 				<div class="col-md-9">

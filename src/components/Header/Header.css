@@ -1,0 +1,29 @@
+.brand-name {
+  color: #337ab7;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.brand-subtitle {
+  color: #E0FFFF;
+  font-family: Courier, monospace;
+  font-size: 1.2em;
+}
+
+.nav-container {
+  margin-top: 4rem;
+}
+
+.nav-pills > li > a {
+  padding: 0.5rem 1rem;
+}
+
+#principal_hr {
+  margin: 20px 0;
+}
+
+/* Estilização para os links ativos */
+.nav-pills > li > a.active {
+  background-color: #337ab7;
+  color: white;
+} 

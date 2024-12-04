@@ -1,0 +1,49 @@
+.navbar-inverse {
+  background-color: #222;
+  border-color: #080808;
+}
+
+.navbar-fixed-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.copyright, .rights {
+  color: #E0FFFF;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  transition: opacity 0.3s ease;
+}
+
+.social-icons img:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .row {
+    text-align: center;
+  }
+  
+  .social-icons {
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .copyright, .rights {
+    display: block;
+    margin-bottom: 10px;
+  }
+} 

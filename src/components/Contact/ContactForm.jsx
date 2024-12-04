@@ -1,28 +1,5 @@
 import React, { useState } from 'react';
 
-export const socialLinks = [
-  {
-    name: 'Google Plus',
-    url: 'http://www.plus.google.com',
-    icon: '/images/plus.png'
-  },
-  {
-    name: 'Twitter',
-    url: 'http://www.twitter.com',
-    icon: '/images/twitter.png'
-  },
-  {
-    name: 'Facebook',
-    url: 'https://www.facebook.com/',
-    icon: '/images/face.png'
-  },
-  {
-    name: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/dionnatas',
-    icon: '/images/linkedin.png'
-  }
-];
-
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     nome: '',

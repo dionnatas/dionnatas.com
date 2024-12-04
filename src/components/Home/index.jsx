@@ -1,9 +1,13 @@
 import React from 'react';
-import profileImg from '../../assets/images/Dionn_Proff.jpg';
-import plusIcon from '../../assets/images/plus.png';
-import twitterIcon from '../../assets/images/twitter.png';
-import facebookIcon from '../../assets/images/face.png';
-import linkedinIcon from '../../assets/images/linkedin.png';
+import profileImg from '../../images/Dionn_Proff.jpg';
+import plusIcon from '../../images/plus.png';
+import twitterIcon from '../../images/twitter.png';
+import facebookIcon from '../../images/face.png';
+import linkedinIcon from '../../images/linkedin.png';
+import twitterIconBlack from '../../images/twitter_black.png';
+import facebookIconBlack from '../../images/face_black.png';
+import linkedinIconBlack from '../../images/linkedin_black.png';
+import './index.css';
 
 const Home = () => {
   return (
@@ -42,15 +46,15 @@ const Home = () => {
               <br />
               <b>Contatos:</b>
               <br />
-              <div>
+              <div className="contact-item">
                 <i className="glyphicon glyphicon-globe" />
                 <a href="http://www.dionnatas.com">dionnatas.com</a>
               </div>
-              <div>
+              <div className="contact-item">
                 <i className="glyphicon glyphicon-phone" />
                 11 9 8624 7663
               </div>
-              <div>
+              <div className="contact-item">
                 <i className="glyphicon glyphicon-envelope" />
                 <a href="mailto:dionnatas@dionnatas.com?Subject=Olá%20Dionnatas">
                   dionnatas@dionnatas.com
@@ -58,10 +62,30 @@ const Home = () => {
               </div>
               <br />
               <div className="social-links">
-                <a href="http://www.plus.google.com"><img src={plusIcon} alt="Google Plus" /></a>
-                <a href="http://www.twitter.com"><img src={twitterIcon} alt="Twitter" /></a>
-                <a href="https://www.facebook.com/"><img src={facebookIcon} alt="Facebook" /></a>
-                <a href="https://www.linkedin.com/in/dionnatas/"><img src={linkedinIcon} alt="LinkedIn" /></a>
+                <a href="http://www.twitter.com" style={{marginRight: '10px'}}>
+                  <img 
+                    src={twitterIcon} 
+                    onMouseOver={e => e.currentTarget.src = twitterIconBlack}
+                    onMouseOut={e => e.currentTarget.src = twitterIcon}
+                    alt="Twitter" 
+                  />
+                </a>
+                <a href="https://www.facebook.com/" style={{marginRight: '10px'}}>
+                  <img 
+                    src={facebookIcon} 
+                    onMouseOver={e => e.currentTarget.src = facebookIconBlack}
+                    onMouseOut={e => e.currentTarget.src = facebookIcon}
+                    alt="Facebook" 
+                  />
+                </a>
+                <a href="https://www.linkedin.com/in/dionnatas/">
+                  <img 
+                    src={linkedinIcon} 
+                    onMouseOver={e => e.currentTarget.src = linkedinIconBlack}
+                    onMouseOut={e => e.currentTarget.src = linkedinIcon}
+                    alt="LinkedIn" 
+                  />
+                </a>
               </div>
             </div>
           </div>

@@ -1,11 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Header.css';
 
 function Header() {
+  const [activeLink, setActiveLink] = useState('/');
+
+  const handleLinkClick = (link) => {
+    setActiveLink(link);
+  };
+
   return (
     <div className="container-fluid">
-      <div className="row teste">
+      <div className="row header w-100">
         <div className="col-md-2" />
         <div className="col-xs-3 col-md-3">
           <h1>
@@ -25,23 +31,26 @@ function Header() {
                 <li>
                   <NavLink 
                     to="/" 
-                    className={({ isActive }) => isActive ? 'active' : ''}
+                    className={({ isActive }) => isActive || activeLink === '/' ? 'active' : ''}
+                    onClick={() => handleLinkClick('/')}
                   >
-                    Home
+                    Início
                   </NavLink>
                 </li>
                 <li>
                   <NavLink 
                     to="/cv" 
-                    className={({ isActive }) => isActive ? 'active' : ''}
+                    className={({ isActive }) => isActive || activeLink === '/cv' ? 'active' : ''}
+                    onClick={() => handleLinkClick('/cv')}
                   >
-                    CV
+                    Currículo
                   </NavLink>
                 </li>
                 <li>
                   <NavLink 
                     to="/contato" 
-                    className={({ isActive }) => isActive ? 'active' : ''}
+                    className={({ isActive }) => isActive || activeLink === '/contato' ? 'active' : ''}
+                    onClick={() => handleLinkClick('/contato')}
                   >
                     Contato
                   </NavLink>

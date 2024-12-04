@@ -1,5 +1,5 @@
 import React from 'react';
-import { socialLinks } from '../../constants';
+import { socialLinks } from '../../constants/constants';
 
 const ContactInfo = () => {
   return (

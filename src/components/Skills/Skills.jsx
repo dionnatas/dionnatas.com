@@ -36,7 +36,6 @@ function Skills() {
     'CMS AVAYA',
     'VMWare',
     'Lansweeper',
-    'Plusoft CRM',
     'Pacote Office'
   ];
 

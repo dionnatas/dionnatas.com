@@ -1,5 +1,6 @@
 // src/components/Curriculo.js
 import React from 'react';
+import cvImg from '../../images/Dionn_Seg.jpg';
 
 const Curriculo = () => {
   return (
@@ -31,7 +32,7 @@ const Curriculo = () => {
             </div>
             <div className="col-xs-4 col-md-3">
               <a href="#" className="thumbnail">
-                <img src="images/Dionn_Seg.jpg" alt="Dionnatas" style={{ width: '100%' }} />
+                <img src={cvImg} alt="Dionnatas" style={{ width: '100%' }} />
               </a>
             </div>
           </div>

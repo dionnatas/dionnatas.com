@@ -7,7 +7,7 @@ const Footer = () => {
     <Box
       component="footer"
       sx={{
-        py: 3,
+        py: 2, 
         px: 2,
         mt: 'auto',
         backgroundColor: 'background.paper',
@@ -18,28 +18,27 @@ const Footer = () => {
       <Container maxWidth="lg">
         <Stack
           direction={{ xs: 'column', sm: 'row' }}
-          spacing={{ xs: 2, sm: 3 }}
-          justifyContent="space-between"
+          spacing={{ xs: 1, sm: 2 }} 
+          justifyContent="center" 
           alignItems="center"
         >
-          <Typography variant="body2" color="text.secondary">
+          <Typography 
+            variant="caption" 
+            color="text.secondary"
+            sx={{ textAlign: 'center' }} 
+          >
             &copy; {new Date().getFullYear()} Dionnatas. Todos os direitos reservados.
           </Typography>
 
           <Stack direction="row" spacing={1}>
             <IconButton
               aria-label="LinkedIn"
-              href="https://linkedin.com/in/dionnatas"
+              href="https://www.linkedin.com/in/dionnatas/"
               target="_blank"
               rel="noopener noreferrer"
-              sx={{
-                color: 'text.secondary',
-                '&:hover': {
-                  color: 'primary.main',
-                },
-              }}
+              size="small" 
             >
-              <LinkedInIcon fontSize="small" />
+              <LinkedInIcon fontSize="small" /> 
             </IconButton>
           </Stack>
         </Stack>

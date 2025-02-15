@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #1976d2;
+  padding: 20px;
+  color: white;
+}
+
+footer {
+  background-color: #1976d2;
+  padding: 10px;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Adicione mais estilos conforme necessário */
+
+.MuiButton-root {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.MuiButton-root:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.MuiListItem-button {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.MuiListItem-button:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+  transform: scale(1.05);
+}
+
+.MuiLink-root {
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.MuiLink-root:hover {
+  color: #0056b3;
+}

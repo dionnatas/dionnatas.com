@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "bootstrap": "^3.3.7",
-    "express": "^4.21.1",
-    "nodemailer": "^6.9.16",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "^6.0.0",
+    "bootstrap": "^5.3.3",
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.5",
     "react-scripts": "^5.0.1"
   },
   "scripts": {

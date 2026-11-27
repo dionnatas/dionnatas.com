@@ -1,6 +1,0 @@
-{
-  "name": "Start on Heroku: React",
-  "description": "A barebones React app that can be deployed to Heroku",
-  "repository": "https://github.com/yourusername/your-repo",
-  "addons": []
-}
